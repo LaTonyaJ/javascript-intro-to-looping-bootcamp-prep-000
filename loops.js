@@ -14,6 +14,7 @@ function forLoop(myArray){
 function whileLoop(int){
   while(int > 0){
     console.log(int)
+    int--
   }
   return 'done'
 }
