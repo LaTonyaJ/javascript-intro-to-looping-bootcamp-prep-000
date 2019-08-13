@@ -19,3 +19,12 @@ function whileLoop(int){
   return 'done'
 }
 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+function doWhileLoop(int){
+  do{
+  console.log("I run once regardless. ")}
+  while(incrementVariable() < int)
+}
