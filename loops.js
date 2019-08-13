@@ -8,6 +8,5 @@ function forLoop(myArray){
   else
     myArray.push('I am ' +i+ ' strange loops.')
   }
-  
   return myArray
 }
