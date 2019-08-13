@@ -11,3 +11,9 @@ function forLoop(myArray){
   return myArray
 }
 
+function whileLoop(int){
+  while(int > 0){
+    console.log(int)
+  }
+  return 'done'
+}
